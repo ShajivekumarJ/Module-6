@@ -26,7 +26,39 @@ To create two specific classes — `Beans` and `Mango`. Then, create a **generic
 ---
 
 ## 💻 Program
+~~~
+# Polymorphism example
+
+class Beans:
+    def type(self):
+        print("Vegetable")
+    
+    def color(self):
+        print("Green")
+
+class Mango:
+    def type(self):
+        print("Fruit")
+    
+    def color(self):
+        print("Yellow")
+
+# Generic function
+def func(obj):
+    obj.type()
+    obj.color()
+
+# Create objects
+obj1 = Beans()
+obj2 = Mango()
+
+# Function calls
+func(obj1)
+func(obj2)
+~~~
 
 ## Output
+<img width="375" height="234" alt="Screenshot 2026-03-24 145416" src="https://github.com/user-attachments/assets/dcc41f95-4115-4b8b-902a-4fee0bdce9fe" />
 
 ## Result
+Thus, the Python program demonstrating polymorphism using different classes with the same method names was successfully executed and verified.
